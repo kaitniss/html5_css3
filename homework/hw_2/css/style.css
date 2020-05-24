@@ -77,7 +77,8 @@ body {
 }
 
 .about {
-	background-color: #445060;
+	padding: 50px;
+	background-color: #ffffff;
 	box-sizing: border-box;
 	height:342px
 }

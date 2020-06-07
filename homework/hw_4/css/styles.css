@@ -1,0 +1,130 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	color: #000000;
+	font-size: 15px;
+	
+}
+div, p, input, header, a, form {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #543024;
+}
+
+h2 {
+	font-size: 38px;
+}
+
+h3 {
+	font-size: 19px;
+}
+
+section {
+	padding: 48px 0;
+}
+
+ul,li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	background-color: black;
+	color: #fff;
+	padding-top: 43px;
+	padding-bottom: 75.5px;
+}
+
+.header a {
+	color: #FFFFFF;
+}
+.nav {
+	display: flex;
+	align-items: center;
+}
+.logo {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 0.055em;
+	display: block;
+	background: url("../img/logo.svg") no-repeat left center/contain;
+	padding-left: 36px;
+	margin-right: 111px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li:not(:last-child) {
+	margin-right: 48px;
+}
+.menu a {
+	padding-bottom: 5px;
+}
+
+.menu a:hover {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+}
+.country {
+	display: block;
+	margin-right: 53px;
+	margin-left: auto;
+}
+.country-name {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.next {
+	font-size: 12px;
+}
+
+.call {
+	display: flex;
+	font-weight: bold;
+	align-items: center;
+	margin-left: auto;
+}
+
+.call-btn {
+	width:168px;
+	font-size: 14px;
+	border: 1px solid #FFFFFF;
+	border-radius: 100px;
+	display: block;
+	padding: 11px 0;
+	text-align: center;
+	margin-right: 21px;
+}
+.call-btn:hover {
+	background: #fff;
+	color: #3E2D38;
+}

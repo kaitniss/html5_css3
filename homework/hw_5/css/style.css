@@ -1,0 +1,48 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	
+	color: #000000;
+	font-size: 15px;
+	
+}
+div, p, input, header, a, form {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #543024;
+}
+
+h2 {
+	font-size: 38px;
+}
+
+h3 {
+	font-size: 19px;
+}
+
+section {
+	padding: 48px 0;
+}
+
+ul,li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	transition: all 0.5s ease;
+}

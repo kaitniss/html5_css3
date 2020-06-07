@@ -1,0 +1,206 @@
+/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {font-family: "Socialico";src: url("../fonts/Socialico.eot") format("eot"),url("../fonts/Socialico.woff") format("woff"),url("../fonts/Socialico.ttf") format("truetype"),url("../fonts/Socialico.svg#Socialico") format("svg");font-weight: normal;font-style: normal;}
+
+.grey {
+	color: #989898;
+}
+.blue-grey {
+	color: #445162;
+}
+.blue-grey-2 {
+	color: #445161;
+}
+.black {
+	color: #333333;
+}
+
+.white {
+	color: ##445161;
+}
+
+.clr{clear:both}
+.text-center {
+	text-align: center;
+}
+body {
+	width: 1280px;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.about{
+	height: 346px;
+	padding: 50px;
+}
+
+.pluses{
+	height: 420px;
+	background: #f5f5f5;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 47px 0px 0px 45px;
+	display: inline-block;
+	
+}
+.pluses ol{
+	list-style-position: inside;
+	-moz-column-count: 2; /* Firefox */
+	-webkit-column-count: 2; /* Safari and Chrome */
+	column-count: 2;
+	height: 265px;
+	
+}
+.pluses ol li {
+	padding-right: 30px;
+	list-style: url("../img/plus_icon.png");
+}
+.pluses-wrapper {
+}
+
+.figure-img {
+	display: block;
+	width: 200px;
+	height: 150px;
+	background-color: #445161;
+}
+
+
+.screenshots-figure-caption {
+	width: 359px
+}
+
+.screenshots {
+	padding: 50px 50px 20px 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.screenshots-wrapper figure {
+	width: 580px
+}
+
+.figure-img {
+	display: block;
+	width: 200px;
+	height: 150px;
+	background-color: #445161;
+}
+
+
+.screenshots-figure-caption {
+	width: 359px
+}
+
+.w-100 {
+	width: 100%!important;
+}
+
+.color-white {
+	color: #fff!important;
+}
+
+
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.main-header {
+	background-color: #445060;
+	padding: 50px;
+	box-sizing: border-box;
+	height:323px
+}
+
+
+
+.main-header-wrapper ul {
+	list-style: none;
+	margin: 0;
+	position: relative;
+}
+
+.main-header-wrapper ul li {
+	position: relative;
+	padding: 0 0 0 20px;
+}
+
+.main-header-wrapper ul li:before {
+	content: "✓";
+	display: block;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: 5px;
+}
+
+.reviews {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1280px;
+	padding: 10px 20px
+}
+.review-item {
+	display: flex;
+	width: 48%;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.review-item-photo {
+	background: red;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%
+}
+
+.review-item-text {
+	width: 70%;
+	padding: 10px;
+	background: #ddd;
+	border-radius: 10px
+}
+
+.review-item-text:before {
+	content: "";
+	border: 15px solid transparent;
+	border-right: 15px solid #ddd;
+	position: relative;
+	top: 15px;
+	left: -60px;
+	display: inline-block;
+	width: 20px
+}
+
+main h1 {
+	color: #445161;
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+
+.about-wrapper {
+	display: block;
+	width: 649px;
+}
+
+main p {
+	color: #333333;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	margin-bottom: 20px;!important;
+	
+}
